@@ -1,0 +1,259 @@
+#background-img{
+    width: 100%;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: smaller;
+    background-image: url('./images/background.jpg');
+}
+
+/* navbar */
+
+.links-container a{
+    text-decoration: none;
+    color: black;
+    margin-left:30px;
+}
+
+.links-container a:hover{
+    border: 3px solid #79ACD9;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    font-weight: bold;
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+}
+
+
+.social-media-container ul{
+  display: flex;
+  margin: 6px 0 0 2px;
+  padding-left: 69.6rem;
+}
+
+.social-media-container ul li {
+    margin: 0 6px 0 6px;
+    list-style: none;
+    cursor: pointer;
+}
+
+/* title */
+
+.heading{
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 56px;
+    margin: 0 0 0.6rem 0;
+    font-family: sans-serif;
+}
+.heading span{
+    background-color: #F89784;
+    color: white;
+}
+
+.text-container {
+    margin-top: 3rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 7rem 0 9rem;
+}
+
+.img-container img{
+    height: 70vh;
+}
+
+.btn{
+    text-transform: uppercase;
+    padding: 1rem;
+    width: 13.5rem;
+    border-radius: 25px;
+    background-color: #77AAD5;
+    color: white;
+    border: 0;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+
+/* overview */
+
+.outer-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 11rem 1rem 10rem;
+}
+
+.small-heading{
+    color: #464A89;
+    font-weight: 550;
+    letter-spacing: 2px;
+    font-size: smaller;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.normal-text{
+    width: 81%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 1.2rem;
+    margin-top: 1.7rem;
+}
+
+.card {
+    margin-top: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/inner-quote.png');
+    background-repeat: no-repeat;
+    background-position: 14rem;
+  }
+
+.card img{
+    margin-top: 1rem;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.card-container {
+    /* padding: 2px 16px; */
+    text-align: center;
+  }
+
+.card-container p{
+    font-size: large;
+    padding: 0 2rem;
+}
+
+
+/* explore */
+
+.btn-para{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-para a img{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#explore-para{
+    padding-right: 16rem;
+}
+
+.filter-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filter-cards img{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    background-color: #D9D8DD;
+    width: 11%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 0px -9rem;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+}
+
+.filter-cards img:hover{
+    background-image: linear-gradient(#464A89, #464A89);
+    z-index: 2;
+}
+
+.filter-cards img::after{
+    mix-blend-mode: multiply;
+}
+
+
+/* brand */
+#brand-outer{
+    display: block;
+    margin: 5rem 5rem 0rem 8rem;
+}
+
+.brand-container{
+    display: flex;
+    margin-top: 7rem;
+
+}
+
+.brand-card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.brand-img img{
+    margin: 4rem 11rem 0rem 0rem;
+}
+
+#brands-para{
+    width: 103%;
+}
+
+.brand-card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9px 1rem;
+    box-shadow: 0 3px 22px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 11px;
+    margin: 0rem 1rem;
+    width: 13vw;
+    align-items: center;
+}
+
+.brand-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.brand-card p{
+    margin-left: 1rem;
+    color: #474A8F;
+    font-weight: bold;
+}
+
+
+#try-btn{
+    margin-top: 3rem;
+    width: 10.5rem;
+}
